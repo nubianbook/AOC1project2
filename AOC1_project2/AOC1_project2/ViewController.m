@@ -108,7 +108,7 @@
     [self.view addSubview:label8];
     
     // 1. I am attempting to create NSArray of items from the book I read
-    NSArray *dethistoryArray = [NSArray arrayWithObjects:@"Cars", @"Indians", @"Lumber", @"Ovens", @"Salt", nil];
+    NSArray *dethistoryArray = [NSArray arrayWithObjects:@"Ford Motor", @"Dodge Brothers", @"Lumber", @"Ovens", @"Salt", nil];
     
     // 2. I am attempting a NSMutableString & allocate it with a loop ohh Jesus
     NSMutableString *arrayBookStuff = [[NSMutableString alloc] initWithCapacity: 5];  //that is the set up
@@ -129,7 +129,7 @@
         label9.backgroundColor = [UIColor magentaColor];
         label9.text = arrayBookStuff;
         label9.textColor = [UIColor greenColor];
-        label7.numberOfLines = 6;
+        label9.numberOfLines = 7;
         label9.textAlignment =  NSTextAlignmentCenter;
     }
     [self.view addSubview:label9];
